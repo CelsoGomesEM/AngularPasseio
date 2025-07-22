@@ -1,0 +1,42 @@
+{
+  "categorias": [
+    {
+      "nome": "Restaurantes",
+      "descricao": "Lugares para comer",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e lazer"
+    },
+    {
+      "id": "5843",
+      "nome": "Praias",
+      "descricao": "Lugares para curtir a maresia"
+    },
+    {
+      "id": "bb2c",
+      "nome": "Supermecados",
+      "descricao": "Lugar para compras alimentícias."
+    }
+  ],
+  "lugares": [
+    {
+      "id": "124c",
+      "nome": "Praia de Maragogi",
+      "categoria": "Praias",
+      "localizacao": "Alagoas",
+      "urlFoto": "https://www.jaraguaturismo.com/wp-content/uploads/2024/06/piscinas-naturais-de-maragogi-alagoas.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4f27",
+      "nome": "Praia de Antunes",
+      "categoria": "Praias",
+      "localizacao": "Alagoas",
+      "urlFoto": "https://www.jaraguaturismo.com/wp-content/uploads/2018/02/praia-de-antunes-praia-xareu.jpg",
+      "avaliacao": "5"
+    }
+  ]
+}

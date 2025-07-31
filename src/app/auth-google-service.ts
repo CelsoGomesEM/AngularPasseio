@@ -48,6 +48,7 @@ export class AuthGoogleService {
     this.profile.set(null);
     this.onLoginSuccess.set(false);
     localStorage.removeItem('jwtToken');
+    localStorage.removeItem('userToken');
     this.router.navigate(['']);
   }
 

@@ -14,10 +14,10 @@ export class CategoriaService {
   constructor(private http: HttpClient) {}
 
   salvar(categoria: Categoria) : Observable<Categoria>{
-    return this.http.post<Categoria>(this.apiUrl + '/categorias', categoria);
+    return this.http.post<Categoria>(this.apiUrl + '/api/Categorias', categoria);
   }
 
   listarTodos() : Observable<Categoria[]>{
-    return this.http.get<Categoria[]>(this.apiUrl + '/categorias');
+    return this.http.get<Categoria[]>(this.apiUrl + '/api/Categorias');
   }
 }

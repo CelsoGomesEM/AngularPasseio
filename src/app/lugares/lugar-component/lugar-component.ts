@@ -21,7 +21,7 @@ export class LugarComponent implements OnInit{
   ){
     this.camposForm = new FormGroup({
       nome: new FormControl('', Validators.required),
-      categoria: new FormControl('', Validators.required),
+      categoriaid: new FormControl('', Validators.required),
       localizacao: new FormControl('', Validators.required),
       urlFoto: new FormControl('', Validators.required),
       avaliacao: new FormControl('', Validators.required),

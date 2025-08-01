@@ -38,11 +38,11 @@
             <label for="categoria" class="block text-gray-600 font-medium mb-2">
                 Categoria
             </label>
-            <select id="categoria" 
-                    name="categoria" 
-                    formControlName="categoria" class="w-full p-3 border border-gray-300 rounded shadow-sm focus: outline-none focus:ring focus: ring-blue-400">
+            <select id="categoriaid" 
+                    name="categoriaid" 
+                    formControlName="categoriaid" class="w-full p-3 border border-gray-300 rounded shadow-sm focus: outline-none focus:ring focus: ring-blue-400">
                 <option [value]=""> Selecione uma categoria</option>
-                <option *ngFor="let categoria of categorias" [value]="categoria.nome"> <!-- [value] = é ov alor que vai ser setado na property para saber qual categoria foi selecionada-->
+                <option *ngFor="let categoria of categorias" [value]="categoria.id"> <!-- [value] = é ov alor que vai ser setado na property para saber qual categoria foi selecionada-->
                     {{categoria.nome}}
                 </option> 
             </select>

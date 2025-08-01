@@ -14,11 +14,11 @@ export class LugarService {
   constructor(private http: HttpClient) {}
 
   salvar(lugar: Lugar) : Observable<Lugar>{
-    return this.http.post<Lugar>(this.apiUrl + '/lugares', lugar);
+    return this.http.post<Lugar>(this.apiUrl + '/api/lugares', lugar);
   }
 
   listarTodos() : Observable<Lugar[]>{
-    return this.http.get<Lugar[]>(this.apiUrl + '/lugares');
+    return this.http.get<Lugar[]>(this.apiUrl + '/api/lugares');
   }
 
   filtrarPorNomeOuCategoria(nome: string, categoria: string) : Observable<Lugar[]>{

@@ -34,7 +34,7 @@ export class LugarService {
     
     console.log('Parametros: ', parametros);
 
-    return this.http.get<Lugar[]>(this.apiUrl + '/lugares', {
+    return this.http.get<Lugar[]>(this.apiUrl + '/api/lugares/filtrar', {
       params: parametros
     });
 
